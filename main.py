@@ -40,28 +40,41 @@ class AgentState(TypedDict):
 # Database path needed for query
 DB_PATH = os.path.join(os.path.dirname(__file__), 'database', 'retail_data.db')
 
-def get_existing_items(limit=5, history_days=90):
-    """Queries DB for items in BOTH inventory & recent demand history."""
+def get_existing_items(limit=15, history_days=90):
+    """
+    Queries DB for items in BOTH inventory & recent demand history.
+    Uses explicit DATE() casting for reliable comparison in SQLite.
+    """
     items = []
     conn = None
     try:
         conn = sqlite3.connect(DB_PATH)
         cursor = conn.cursor()
+        # --- **** MODIFIED QUERY with explicit DATE() casting **** ---
         query = f"""
             SELECT DISTINCT i.ProductID, i.StoreID
             FROM inventory_monitoring i
             INNER JOIN demand_forecast d ON i.ProductID = d.ProductID AND i.StoreID = d.StoreID
-            WHERE d.Date >= date('now', '-{history_days} days')
+            WHERE DATE(d.Date) >= DATE('now', '-{history_days} days')
             LIMIT ?
         """
+        # --- **** END MODIFIED QUERY **** ---
+
+        print(f"DEBUG GET_ITEMS: Executing SQL:\n{query}\nWith limit={limit}, history_days={history_days}") # Keep this debug print
         cursor.execute(query, (limit,))
         items = cursor.fetchall()
+        print(f"DEBUG GET_ITEMS: Raw fetchall result from DB query: {items}") # Keep this debug print
         print(f"Retrieved {len(items)} existing Product/Store pairs present in both inventory and recent demand history.")
     except sqlite3.Error as e:
         print(f"Error querying existing items from DB: {e}")
+        # Avoid using st.error directly in backend logic if possible
+        # Log the error or raise it to be caught by the Streamlit part
+    except Exception as e:
+        print(f"Unexpected error in get_existing_items: {e}")
     finally:
         if conn: conn.close()
     return items
+
 
 # --- Define Agent Nodes (with State Update Fix) ---
 
