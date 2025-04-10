@@ -4,34 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bc7a3e55-aed6-487c-9b9e-515ea4b67285" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/csv-editor.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/retail_inventory_agents.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/agents/data_ingestion_agent.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/agents/demand_forecaster_agent.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/agents/inventory_monitoring_agent.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/agents/pricing_optimizer_agent.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/agents/replenishment_agent.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/agents/supplier_agent.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/settings.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/demand_forcast.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/inventory_monitoring.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/pricing_optimization.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/database_setup.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tools/ml_model_tool.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tools/web_scraper_tool.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/data_utils.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/ollama_utils.py" afterDir="false" />
-    </list>
+    <list default="true" id="bc7a3e55-aed6-487c-9b9e-515ea4b67285" name="Changes" comment="completed" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -47,6 +20,12 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/SatyamSingh-Git/Multi-Agent-Retail-Optimization-System.git",
+    "accountId": "b2584873-a1aa-4294-991e-ea930ca97524"
+  }
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 4
 }</component>
@@ -103,12 +82,25 @@
       <updated>1744044493421</updated>
       <workItem from="1744044494476" duration="15162000" />
       <workItem from="1744133251435" duration="66000" />
-      <workItem from="1744306275881" duration="6726000" />
+      <workItem from="1744306275881" duration="7059000" />
     </task>
+    <task id="LOCAL-00001" summary="completed">
+      <option name="closed" value="true" />
+      <created>1744315369320</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1744315369320</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="completed" />
+    <option name="LAST_COMMIT_MESSAGE" value="completed" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/retail_inventory_agents$ollama_utils.coverage" NAME="ollama_utils Coverage Results" MODIFIED="1744058105433" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/utils" />
