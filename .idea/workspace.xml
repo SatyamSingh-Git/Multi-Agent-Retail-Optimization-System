@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bc7a3e55-aed6-487c-9b9e-515ea4b67285" name="Changes" comment="completed" />
+    <list default="true" id="bc7a3e55-aed6-487c-9b9e-515ea4b67285" name="Changes" comment="completed">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -20,6 +22,12 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "SatyamSingh-Git"
+  }
+}]]></component>
   <component name="GithubPullRequestsUISettings"><![CDATA[{
   "selectedUrlAndAccountId": {
     "url": "https://github.com/SatyamSingh-Git/Multi-Agent-Retail-Optimization-System.git",
@@ -82,7 +90,7 @@
       <updated>1744044493421</updated>
       <workItem from="1744044494476" duration="15162000" />
       <workItem from="1744133251435" duration="66000" />
-      <workItem from="1744306275881" duration="7059000" />
+      <workItem from="1744306275881" duration="7367000" />
     </task>
     <task id="LOCAL-00001" summary="completed">
       <option name="closed" value="true" />
