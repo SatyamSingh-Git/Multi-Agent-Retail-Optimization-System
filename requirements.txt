@@ -1,0 +1,11 @@
+pandas~=2.2.3
+langchain
+langgraph~=0.3.25
+ollama~=0.4.7
+python-dotenv~=1.1.0
+sqlalchemy    # Useful ORM, though we'll use sqlite3 directly for simplicity now
+beautifulsoup4~=4.13.3
+requests~=2.32.3
+joblib~=1.4.2
+python-docx~=1.1.2
+streamlit~=1.44.1

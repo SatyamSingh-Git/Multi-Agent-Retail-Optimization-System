@@ -1,0 +1,19 @@
+Product ID,Date,Store ID,Sales Quantity,Price,Promotions,Seasonality Factors,External Factors,Demand Trend,Customer Segments
+101,2024-10-25,1,5,15.00,No,None,None,Stable,Regular
+101,2024-10-18,1,7,15.00,No,None,None,Stable,Regular
+101,2024-10-11,1,6,15.00,No,None,None,Increasing,Regular
+102,2024-10-25,1,3,19.99,No,None,None,Stable,Premium
+103,2024-10-24,2,2,45.00,No,None,Economic,Decreasing,Budget
+104,2024-10-23,2,10,25.50,Yes,None,None,Stable,Regular
+105,2024-10-25,1,12,22.00,No,None,None,Increasing,Regular
+106,2024-10-24,3,4,75.50,No,None,None,Stable,Premium
+107,2024-10-22,3,6,9.99,Yes,None,None,Stable,Budget
+108,2024-10-25,1,1,12.00,No,None,None,Decreasing,Budget
+108,2024-10-15,1,2,11.50,Yes,None,None,Decreasing,Budget
+109,2024-10-24,2,15,38.75,No,None,None,Increasing,Premium
+110,2024-10-23,3,7,18.00,No,None,None,Stable,Regular
+111,2024-10-25,1,8,28.00,No,None,Competitor Action,Stable,Regular
+112,2024-10-24,2,2,65.00,No,None,None,Stable,Premium
+113,2024-10-22,3,9,5.50,Yes,None,None,Increasing,Budget
+114,2024-10-25,1,4,33.25,No,None,Weather,Stable,Regular
+115,2024-10-23,2,11,49.99,No,None,None,Increasing,Premium
